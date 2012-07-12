@@ -1,6 +1,6 @@
-# Rack::Nocache
+# Rack::Nocache (Only for IE7)
 
-It deletes your `ETags`, it ignores your `If-*` headers, to tramples all over your caching headers with:
+It deletes IE7's `ETags`, it ignores IE7's `If-*` headers, to tramples all over IE7's caching headers with:
 
       {
         "Cache-Control" => "no-cache, no-store, max-age=0, must-revalidate",
